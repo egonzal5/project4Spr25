@@ -27,7 +27,7 @@ class YourGameName extends Game {
     	// counter is incremented and this message printed
     	// each time the canvas is repainted
     	counter++;
-    	brush.setColor(Color.white);
+    	brush.setColor(Color.red);
     	brush.drawString("Counter is " + counter,10,10);
   }
   
